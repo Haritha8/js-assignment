@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Welcome to JS Programming</title>
+        <h2>Check out if the number is even or odd!</h2>
+    </head>
+    <body>
+        <script>
+            let num = Number(prompt("enter a number",0));
+            var x = myFunc(num);
+            function myFunc(num)
+            {
+                if(num%2==0){
+                    return "even";
+                }
+                else{
+                    return "odd";
+                }
+            }
+            console.log("The number entered is " + num + " and Number is " + x + ".");
+        </script>
+    </body>
+</html>
